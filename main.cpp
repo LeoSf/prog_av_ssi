@@ -1,8 +1,12 @@
-#include <QCoreApplication>
+#include <iostream>
 
-int main(int argc, char *argv[])
+using std::cout;
+
+int main()
 {
-    QCoreApplication a(argc, argv);
+    cout << "-----------------------------------\n";
+    cout << "Sistema de segmentación de imágnes\n";
+    cout << "-----------------------------------\n";
 
-    return a.exec();
+    return 0;
 }
